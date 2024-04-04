@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;
+    0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Library</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Bookshelf Hub</h1>
+            <img class="logo" src="files/logo.png">
+        </div>
+        <button class="addBtn" type="button">Add book</button>
+
+        <dialog class="bookDialog">
+            <form>
+                <label for="title">Title:</label><br>
+                <input type="text" id="title" name="title"><br>
+                <label for="author">Author:</label><br>
+                <input type="text" id="author" name="author"><br>
+                <label for="pages">Pages:</label><br>
+                <input type="number" id="pages" name="pages" min="1"><br>
+                <input type="radio" id="read" name="status" value="read">
+                <label for="read">Read</label><br>
+                <input type="radio" id="unread" name="status" value="unread">
+                <label for="unread">Unread</label><br>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+            <button class="closeDialogBtn" value="cancel" formmethod="dialog">Cancel</button>
+        </dialog>
+
+        <hr>
+
+        <div class="table-container">
+            <table>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Pages</th>
+                    <th>Status</th>
+                </tr>
+            </table>
+        </div>
+
+        <hr>
+        
+    </div>
+</body>
+</html>

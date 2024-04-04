@@ -1,0 +1,61 @@
+body {
+    background: #292d31;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 5fr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.addBtn {
+    padding: 14px 30px;
+    margin-bottom: 20px;
+    background-color: #5865f2;
+    color: white;
+    font-size: 15px;
+    border-radius: 8px; 
+}
+
+hr {
+    width: 50%;
+    border: none;
+    border-top: 2px solid #42474b; 
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 700px;
+    text-align: center;
+}
+
+table td {
+    border-left: none;
+    border-right: none;
+}
+
+table {
+    background-color: #131516;
+}
+
+td {
+    background-color: #262a2c;
+}
+
+
